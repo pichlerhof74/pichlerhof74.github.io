@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>none</CaptionsEffect>
+            <Controls>false</Controls>
+            <FontSize>28</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>Header</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect></ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>240</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/tick/</ImageTemplate>
+            <ImageTemplateName>Tick</ImageTemplateName>
+            <ImageWidth>1208</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Papa/Dropbox/Ausserhofer/slide_header/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/Papa/Dropbox/Ausserhofer/slide_header</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>34</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>1</SwipeSupport>
+            <TemplateColor>#555555</TemplateColor>
+            <TemplateFont>Marck Script</TemplateFont>
+            <TemplateName>tick</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Papa/Dropbox/Responsive/img/header.jpg</url>
+                <title>header</title>
+                <filesize>143335</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Papa/Dropbox/Responsive/img/IMG_6530.jpg</url>
+                <title>IMG_6530</title>
+                <filesize>202789</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Papa/Dropbox/Responsive/img/IMG_4975.jpg</url>
+                <title>IMG_4975</title>
+                <filesize>619008</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Papa/Dropbox/Responsive/img/IMG_6352.jpg</url>
+                <title>IMG_6352</title>
+                <filesize>246128</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
