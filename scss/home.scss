@@ -28,8 +28,8 @@
       text-shadow: 2px 2px 4px black;
 
       @media screen and (min-width: 768px) {
-        color: black;
-        text-shadow: none;
+        //color: black;
+        //text-shadow: none;
       }
     }
 
@@ -70,7 +70,7 @@
   max-height: 100vh;
 
   &#firstSlide {
-    background-image: url("../img/weissenbach-1-mobile.JPG");
+    background-image: url("../img/weissenbach-1-mobile.jpg");
 
     @media screen and (min-width: 768px) {
       background-image: url("../img/weissenbach-1.JPG");
