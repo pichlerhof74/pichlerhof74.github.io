@@ -1,0 +1,37 @@
+/* Banner */
+
+.sub-banner {
+  height: 0;
+  background-color: grey;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 30px;
+
+  &#blau {
+    background-image: url('../img/ferienwohnungen/blau/blau-1.jpg') !important;
+    background-position-y: -160px;
+    border-bottom: 6px solid theme-color("blau");
+  }
+
+  &#gruen {
+    background-image: url('../img/ferienwohnungen/gruen/gruen-1.jpg') !important;
+    background-position-y: -160px;
+    border-bottom: 6px solid theme-color("gruen");
+  }
+
+  &#orange {
+    background-image: url('../img/ferienwohnungen/orange/orange-1.jpg') !important;
+    background-position-y: -160px;
+    border-bottom: 6px solid theme-color("orange");
+  }
+
+  &#rot {
+    background-image: url('../img/ferienwohnungen/rot/rot-1.jpg') !important;
+    background-position-y: -160px;
+    border-bottom: 6px solid theme-color("rot");
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 400px;
+  }
+}

@@ -1,0 +1,124 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+$body-bg: #fefefe;
+$body-color: #333;
+
+$theme-colors: (
+  "rot": #f25448,
+  "blau": #93D2FD,
+  "gruen": #a5e88d,
+  "orange": #ffa647,
+  "blauer": #5cbdff,
+);
+
+p {
+  color: black;
+
+  a {
+    color: black;
+
+    &:hover {
+      color: theme-color("rot");
+      text-decoration: none;
+    }
+  }
+}
+
+ul, ol {
+  li {
+    color: black;
+  }
+}
+
+a {
+  color: black;
+
+  &:hover {
+    color: theme-color("rot");
+  }
+
+  &.anchor {
+    display: block;
+    position: relative;
+    top: -140px;
+    visibility: hidden;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+
+  &:before {
+
+  }
+}
+
+h2 {
+  font-size: 2.3rem !important;
+  width: 100%;
+  background-color: white;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.flex-item {
+  flex: 0 1 auto;
+}
+
+.abstandhalter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &.hidden-mobile {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+  }
+}
+
+.abstandhalter-small {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.sub {
+  padding-top: 82px;
+
+  h1 {
+    //font-weight: 500 !important;
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
+.button {
+  background-color: theme-color("rot");
+  color: white;
+  padding: 15px;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: lighten(#f25448, 5%);
+    text-shadow: 1px 1px 5px black;
+  }
+}
