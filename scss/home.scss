@@ -9,12 +9,25 @@
     }
   }
 }*/
+.abstandhalter {
+  &.first {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media (min-width: 768px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+}
+
 /* ------------------ Start -------------------------*/
 #start {
   background-color: #666;
+  padding: 0;
   height: 100vh;
   max-height: 100vh;
-  padding: 0;
+  display: none;
 
   h1.bannertext {
     text-align: center;
@@ -61,6 +74,10 @@
       font-size: 100px;
     }
   }
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .carousel-item {
@@ -73,20 +90,20 @@
     background-image: url("../img/weissenbach-1-mobile.jpg");
 
     @media screen and (min-width: 768px) {
-      background-image: url("../img/weissenbach-1.JPG");
+      background-image: url("../img/weissenbach-1.jpg");
     }
   }
 
   &#secondSlide {
-    background-image: url("../img/weissenbach-berge.JPG");
+    background-image: url("../img/weissenbach-berge.jpg");
   }
 
   &#thirdSlide {
-    background-image: url("../img/weissenbach-dorf.JPG");
+    background-image: url("../img/weissenbach-dorf.jpg");
   }
 
   &#fourthSlide {
-    background-image: url("../img/schnee.JPG");
+    background-image: url("../img/schnee.jpg");
   }
 }
 
