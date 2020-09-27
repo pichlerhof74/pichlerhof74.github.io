@@ -24,7 +24,13 @@
     top: 295px;
 
     &#bannertext1 {
-      color: black;
+      color: white;
+      text-shadow: 2px 2px 4px black;
+
+      @media screen and (min-width: 768px) {
+        color: black;
+        text-shadow: none;
+      }
     }
 
     &#bannertext2 {
@@ -62,10 +68,13 @@
   background-attachment: fixed;
   height: 100vh;
   max-height: 100vh;
-  background-position-x: -200px;
 
   &#firstSlide {
-    background-image: url("../img/weissenbach-1.JPG");
+    background-image: url("../img/weissenbach-1-mobile.JPG");
+
+    @media screen and (min-width: 768px) {
+      background-image: url("../img/weissenbach-1.JPG");
+    }
   }
 
   &#secondSlide {
@@ -78,10 +87,6 @@
 
   &#fourthSlide {
     background-image: url("../img/schnee.JPG");
-  }
-
-  @media screen and (min-width: 768px) {
-    background-position-x: 0;
   }
 }
 
