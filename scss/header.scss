@@ -33,27 +33,88 @@
     }
   }
 
-  .navbar-nav {
-    .dropdown-menu {
-      border: none;
+  .navbar-collapse {
 
-      .dropdown-item {
-        padding-left: 50px;
+    .navbar-nav {
+      .dropdown-menu {
+        border: none;
+
+        .dropdown-item {
+          padding-left: 50px;
+
+          &:hover {
+            background: none;
+            color: theme-color("rot");
+          }
+        }
+      }
+
+      .nav-link {
+        color: #333 !important;
+        padding-left: 24px;
 
         &:hover {
-          background: none;
-          color: theme-color("rot");
+          color: theme-color("rot") !important;
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1023px){
+          padding-left: 12px;
+        }
+
+        @media screen and (min-width: 1024px) and (max-width: 1199px) {
+          padding-left: 17px;
         }
       }
     }
+  }
 
-    .nav-link {
-      color: black !important;
-      padding-left: 25px;
+}
 
-      &:hover {
-        color: theme-color("rot") !important;
-      }
+.lang-nav {
+  padding-right: 15px;
+  display: none;
+
+  a {
+    border: 1px solid theme-color("rot");
+    color: theme-color("rot");
+    padding: 4px 10px;
+    margin-left: 5px;
+
+    &:hover {
+      background-color: theme-color("rot");
+      color: white;
+      text-decoration: none;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+    display: block;
+  }
+}
+
+.lang-nav-mobile {
+  padding: 15px 24px 10px 24px;
+
+  a {
+    &:nth-child(2) {
+      margin-left: 3%;
+    }
+  }
+
+  button {
+    border: 1px solid theme-color("rot");
+    color: theme-color("rot");
+    padding: 4px 10px;
+    background-color: white;
+    width: 48%;
+
+    &:hover {
+      background-color: theme-color("rot");
+      color: white;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    display: none;
   }
 }

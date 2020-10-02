@@ -14,10 +14,10 @@ $theme-colors: (
 );
 
 p {
-  color: black;
+  color: #333;
 
   a {
-    color: black;
+    color: #333;
 
     &:hover {
       color: theme-color("rot");
@@ -28,12 +28,12 @@ p {
 
 ul, ol {
   li {
-    color: black;
+    color: #333;
   }
 }
 
 a {
-  color: black;
+  color: #333;
 
   &:hover {
     color: theme-color("rot");
