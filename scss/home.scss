@@ -29,16 +29,13 @@
     &#bannertext1 {
       color: white;
       text-shadow: 2px 2px 4px black;
-
-      @media screen and (min-width: 768px) {
-        //color: black;
-        //text-shadow: none;
-      }
     }
 
     &#bannertext2 {
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 2px black;
+      //-webkit-text-fill-color: transparent;
+      //-webkit-text-stroke: 2px black;
+      color: white;
+      text-shadow: 2px 2px 4px black;
     }
 
     &#bannertext3 {
@@ -48,6 +45,7 @@
 
     &#bannertext4 {
       color: white;
+      text-shadow: 2px 2px 4px black;
     }
 
     &.hide {
